@@ -1,1 +1,2 @@
 # desafio-04
+Desafio 04 da trilha ciência de dados: O seu gerente lhe apresentou uma planilha contendo dados sobre a situação atual dos clientes do banco em alguns estados do Nordeste, a fim de analisar e ajudar na tomada de decisão. No entanto, como é de se esperar, os dados brutos apresentam diversas inconsistências e precisam passar por um processo de limpeza. Então, você, como um bom cientista de dados, sabe que nem tudo são flores: os dados são como petróleo bruto, mas inúteis até serem devidamente refinados para análises e tomadas de decisão. 
