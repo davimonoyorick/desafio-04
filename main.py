@@ -127,8 +127,8 @@ clientes_acima_40 = df[df['idade'] > 40]
 media_saldo = clientes_acima_40['saldo na conta'].mean()
 mediana_saldo = clientes_acima_40['saldo na conta'].median()
 
-print(f"Média do saldo na conta com idade menor que 40 anos: R$ {media_saldo:.2f}\n\n")
-print(f"Mediana do saldo na conta com idade maior que 40 anos): R$ {mediana_saldo:.2f}\n\n")
+print(f"\n\nMédia do saldo na conta com idade maior que 40 anos: R$ {media_saldo:.2f}\n\n")
+print(f"Mediana do saldo na conta com idade maior que 40 anos: R$ {mediana_saldo:.2f}\n\n")
 
 
 #Apresente a média e a mediana do saldo na conta dos clientes que saíram e dos que permaneceram;
@@ -157,7 +157,7 @@ media_bens = clientes_sairam['bens'].mean()
 contagem_estados = clientes_sairam['estado'].value_counts()
 
 print(f"Gênero predominante dos que saíram: {genero_predominante}")
-print(f"Média da idade: {media_idade} anos")
+print(f"Média da idade: {media_idade:} anos")
 print(f"Média do saldo na conta: R$ {media_saldo}")
 print(f"Média do patrimônio (bens): R$ {media_bens}")
 print("\nContagem dos que saíram por estado:")
