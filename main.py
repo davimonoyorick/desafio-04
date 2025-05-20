@@ -116,8 +116,8 @@ clientes_jovens = df[df['idade'] < 40]
 media_saldo = clientes_jovens['saldo na conta'].mean()
 mediana_saldo = clientes_jovens['saldo na conta'].median()
 
-print(f"Média do saldo na conta de clientes com idade < 40): R$ {media_saldo:.2f}\n\n")
-print(f"Mediana do saldo na conta de clientes com idade < 40): R$ {mediana_saldo:.2f}\n\n")
+print(f"Média do saldo na conta de clientes com idade menor que 40: R$ {media_saldo:.2f}\n\n")
+print(f"Mediana do saldo na conta de clientes com idade menor que 40: R$ {mediana_saldo:.2f}\n\n")
 
 
 #Apresente a média e a mediana do saldo na conta dos clientes acima de 40 anos;
